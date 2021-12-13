@@ -1,5 +1,5 @@
-const int pEchA = PB7;
-const int pEchB = PB8;
+const int pEchA = PB7; //D2 for Arduino Uno Board
+const int pEchB = PB8; //D3 for Arduino Uno Board
 
 volatile long countPulses = 0;
 const int TimeSampling = 10; //ms
